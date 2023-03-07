@@ -5,5 +5,11 @@ A high-efficent memory-safe and thread-safe string generator written in C++
 An example of usage is given in main.cpp
 
 ```
-random_string(10, charset::ALL | LOWERCASE | UPPERCASE | DIGITS) #charset::ALL by default
+#include "strgen.h"
+
+//...
+
+strgen::random_string(
+    10, // length
+    charset = strgen::charset::ALL | LOWERCASE | UPPERCASE | DIGITS); // charset::ALL by default
 ```
