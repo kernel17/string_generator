@@ -4,6 +4,8 @@
 #include <utility>
 #include <vector>
 
+namespace strgen {
+
 enum class charset {
   LOWERCASE = 1,
   UPPERCASE = 2,
@@ -30,3 +32,5 @@ std::string random_string(size_t length, charset charsets = charset::ALL) {
   }
   return buffer;
 }
+
+} // namespace strgen
