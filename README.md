@@ -1,7 +1,7 @@
-#string_generator
+# string_generator
 A high-efficent memory-safe and thread-safe string generator written in C++
 
-##Usage:
+## Usage:
 An example of usage is given in main.cpp
 
 '''
